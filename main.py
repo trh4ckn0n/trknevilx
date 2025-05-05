@@ -12,7 +12,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN") or "YOUR_TELEGRAM_BOT_TOKEN"
 AUTHORIZED_USER_ID = os.getenv("USER_ID") or 123456789  # Ton ID Telegram ici
 MAGIC_COMMAND = os.getenv("MAGIC_COMMAND") or "/stop_calc_trhacknon"
 
-UNLOCK_FILE = "/tmp/.unlock_ultracalc"
+UNLOCK_FILE = os.getenv("UNLOCK_FILE") or "/tmp/.unlock_ultracalc"
 SERVICE_NAME = "gpt4_calc.service"
 
 # === GPT-4 Generator ===
