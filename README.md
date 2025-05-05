@@ -15,10 +15,12 @@ Le script Bash permettant d’installer et de configurer automatiquement le syst
 ---
 # dotenv var
 
-OPENAI_API_KEY
-TELEGRAM_TOKEN
-USER_ID
-MAGIC_COMMAND
+```bash
+OPENAI_API_KEY=
+TELEGRAM_TOKEN=
+USER_ID=
+MAGIC_COMMAND=
+```
 
 ---
 
