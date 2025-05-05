@@ -13,6 +13,14 @@ Le fichier principal exécutant les calculs complexes et gérant la communicatio
 Le script Bash permettant d’installer et de configurer automatiquement le système, y compris le téléchargement du script Python, l’installation des dépendances, et la configuration d’un service `systemd` pour garantir que tout fonctionne même après un redémarrage.
 
 ---
+# dotenv var
+
+OPENAI_API_KEY
+TELEGRAM_TOKEN
+USER_ID
+MAGIC_COMMAND
+
+---
 
 ## 1. Fichier `main.py`
 
