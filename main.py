@@ -8,9 +8,9 @@ import subprocess
 
 # === CONFIG ===
 openai.api_key = os.getenv("OPENAI_API_KEY") or "sk-...replace_me..."
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-AUTHORIZED_USER_ID = 123456789  # Ton ID Telegram ici
-MAGIC_COMMAND = "/stop_calc_trhacknon"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN") or "YOUR_TELEGRAM_BOT_TOKEN"
+AUTHORIZED_USER_ID = os.getenv("USER_ID") or 123456789  # Ton ID Telegram ici
+MAGIC_COMMAND = os.getenv("MAGIC_COMMAND") or "/stop_calc_trhacknon"
 
 UNLOCK_FILE = "/tmp/.unlock_ultracalc"
 SERVICE_NAME = "gpt4_calc.service"
